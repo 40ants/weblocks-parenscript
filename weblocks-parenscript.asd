@@ -13,7 +13,7 @@
   :version (:read-file-form "version.lisp-expr")
   :author ""
   :license ""
-  :depends-on ()
+  :depends-on (:weblocks)
   :components ((:module "src"
                 :components
                 ((:file "weblocks-parenscript"))))
