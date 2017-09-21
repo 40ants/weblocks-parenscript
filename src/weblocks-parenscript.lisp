@@ -2,7 +2,8 @@
 (defpackage weblocks.parenscript
   (:use :cl)
   (:export
-   #:make-dependency))
+   #:make-dependency
+   #:make-dependency*))
 (in-package :weblocks.parenscript)
 
 
@@ -30,3 +31,9 @@ a real filename."
   `(make-instance 'parenscript-dependency
                   :type :js
                   :js (ps:ps ,@parenscript-code)))
+
+
+(defun make-dependency* (parenscript-code)
+  (make-instance 'parenscript-dependency
+                 :type :js
+                 :js (ps:ps* parenscript-code)))

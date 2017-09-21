@@ -2,8 +2,13 @@
  ChangeLog
 ===========
 
-0.1.0 (unreleased)
-==================
+0.2.0
+=====
+
+* Added function ``make-dependency*``.
+
+0.1.0
+=====
 
 * Number features here.
 * Like that.
