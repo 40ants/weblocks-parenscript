@@ -2,6 +2,11 @@
  ChangeLog
 ===========
 
+0.3.0
+=====
+
+* Fixed to work with weblocks>= 0.25.0.
+
 0.2.0
 =====
 
