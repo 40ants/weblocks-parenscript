@@ -2,6 +2,12 @@
  ChangeLog
 ===========
 
+0.4.0
+=====
+
+* Added function ``make-js-handler``, which allows easily create custom
+  even handlers with Lisp and JS code parts.
+
 0.3.0
 =====
 
